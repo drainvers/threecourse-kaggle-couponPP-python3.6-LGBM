@@ -28,3 +28,7 @@ To adjust the number of threads to use, change the `threads` variable in `d00_cr
 
 ## Notes
 The [original code](https://github.com/threecourse/kaggle-coupon-purchase-prediction) by threecourse blended the results of XGBoost and Vowpal Wabbit models. I modified the code to use LightGBM only and also run with newer versions of libraries.
+
+## Latest Results (MAP@10)
+Private: 0.00932
+Public: 0.01157
